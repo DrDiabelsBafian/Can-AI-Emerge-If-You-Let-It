@@ -1,0 +1,39 @@
+# Models (too large for git)
+*.gguf
+*.bin
+*.safetensors
+models/
+adapters/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Logs (contain private reflections)
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment
+.env
+*.env.local
+
+# Build
+build/
+dist/
+
+# Conversation exports (private)
+exports/
+conversations/
